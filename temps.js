@@ -13,6 +13,6 @@ for(var i = 0; i < tempLength; i++) {
   }
   var moy = moy + temperature[i];
 }
-alert("La température la plus élevée cette semaine sera de " + max);
-alert("La température la moins chaude de cette semaine sera de " + min);
-alert("La température la moins chaude de cette semaine sera de " + moy/tempLength);
+alert("La température la plus élevée cette semaine sera de " + max+ " degrés");
+alert("La température la moins chaude de cette semaine sera de " + min+ " degrés");
+alert("La température moyenne  cette semaine sera de " + moy/tempLength+ " degrés");
