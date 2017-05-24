@@ -6,12 +6,12 @@ var moy = 0;
 
 for(var i = 0; i < tempLength; i++) {
   if(max < temperature[i]) {
-    var max = temperature[i];
+    max = temperature[i];
   }
   if(min > temperature[i]) {
-    var min = temperature[i];
+    min = temperature[i];
   }
-  var moy = moy + temperature[i];
+  moy = moy + temperature[i];
 }
 alert("La température la plus élevée cette semaine sera de " + max+ " degrés");
 alert("La température la moins chaude de cette semaine sera de " + min+ " degrés");
